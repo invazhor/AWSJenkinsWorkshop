@@ -5,10 +5,10 @@ phases:
     commands:
       - echo install phase started on `date`
       - python3 --version
-      - 'curl -O https://bootstrap.pypa.io/get-pip.py'
+      - 'curl -O https://bootstrap.pypa.io/pip/3.4/get-pip.py'
       - python3 get-pip.py
       - pip install --upgrade pip
-        - python3 -m pip3 install Flask
+      - python3 -m pip3 install Flask
   build:
     commands:
       - echo Build started on `date`
