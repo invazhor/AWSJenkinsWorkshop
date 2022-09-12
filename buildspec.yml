@@ -8,7 +8,7 @@ phases:
       - 'curl -O https://bootstrap.pypa.io/pip/3.4/get-pip.py'
       - python3 get-pip.py
       - pip install --upgrade pip
-      - python3 -m pip3 install Flask
+      - python3 -m pip install Flask
   build:
     commands:
       - echo Build started on `date`
